@@ -1,0 +1,98 @@
+.container {
+  background-color: rgb(219, 219, 219);
+  padding: 25px;
+  width: 700px;
+  border-radius: 5px;
+}
+
+.todo-header {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.todo-body {
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgb(199, 199, 199);
+  border-radius: 3px;
+  padding: 2px;
+  margin: 15px 0 15px 0;
+}
+
+.todo-form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.addButton {
+  cursor: pointer;
+  width: 55px;
+  height: 55px;
+  padding: 20px;
+}
+
+.todo-body input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 20px;
+  padding: 15px;
+}
+
+.todo-body button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  padding: 15px;
+  background-color: rgb(164, 164, 164);
+}
+
+ul li {
+  list-style: none;
+  font-size: 20px;
+  padding-left: 15px;
+}
+
+li {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  background-color: rgb(199, 199, 199);
+  border-radius: 3px;
+  margin: 15px 0px 15px 0;
+  font-family: "poppins", sans-serif;
+}
+
+.iconGroup {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.icon {
+  cursor: pointer;
+}
+
+textarea {
+  background-color: transparent;
+  width: 500px;
+  border: 1px solid black;
+  font-size: 20px;
+}
+
+.isDone {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+}
